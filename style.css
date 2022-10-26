@@ -1,0 +1,34 @@
+tr:first-child {
+    background-color:antiquewhite;
+    font-weight: bold;
+    font-size: medium;
+}
+
+tr:nth-child(2n) {
+    background-color:lightgray;
+}
+
+td {
+    border: solid 1px darkgray;
+    padding: 5px;
+}
+
+div {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+td:nth-child(2n) {
+    width: 75%;
+}
+
+td:nth-child(2n+1) {
+    cursor: pointer;
+    width: 25%;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    padding: 20px;
+}
